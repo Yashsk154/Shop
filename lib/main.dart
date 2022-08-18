@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
           appBar: AppBar(
-            title: Text("SHOP_COM"),
+            title: Text("SHOP__COM"),
             centerTitle: true,
             backgroundColor: Colors.blueAccent,
           ),
@@ -40,9 +40,10 @@ class MyApp extends StatelessWidget {
                   Column(
                     children: [
                       Image(
-                          image: NetworkImage(
-                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStS9bRcgxQJN1hWPrIuuI-wNkvPZor7qcK1w&usqp=CAU ")),
-                      Text(
+              image: NetworkImage(
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStS9bRcgxQJN1hWPrIuuI-wNkvPZor7qcK1w&usqp=CAU ")),
+
+          Text(
                         "GEMINI OIL:550",
                         style: TextStyle(
                             color: Colors.black,
